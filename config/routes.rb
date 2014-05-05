@@ -1,7 +1,14 @@
 Pinterestforkittens::Application.routes.draw do
+  get "page/index"
+  get "page/about"
+  get "page/team"
+  get "page/legal"
+  get "page/privacy"
   # get "page/index"
-
+get "/about" => "page#about"
   root "page#index"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

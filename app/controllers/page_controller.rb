@@ -1,4 +1,10 @@
 class PageController < ApplicationController
-  def index
+  def Most
+  end
+
+  def Recent
+  end
+
+  def Photos
   end
 end

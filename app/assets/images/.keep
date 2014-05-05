@@ -1,0 +1,1 @@
+<img class="img-responsive" src="<%= image_path "9.jpg" %>"/>
