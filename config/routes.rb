@@ -5,6 +5,7 @@ Pinterestforkittens::Application.routes.draw do
   get "page/legal"
   get "page/privacy"
   # get "page/index"
+  get "/Recent" => "page#Recent"
 get "/about" => "page#about"
   root "page#index"
 
