@@ -10,6 +10,7 @@ gem 'pg'
 
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+gem 'devise'
 gem 'pg'
 gem 'rails_12factor'
 # Use SCSS for stylesheets

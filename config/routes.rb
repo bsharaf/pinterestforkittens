@@ -1,4 +1,6 @@
 Pinterestforkittens::Application.routes.draw do
+  devise_for :users
+  devise_for :views
   resources :pins
 
   get "page/index"
