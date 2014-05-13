@@ -26,18 +26,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/recent">Most Recent Photos</a></li>
-        <li><a href="#">All Time Greats</a></li>
+        <li><%= link_to "Most Recent Photos", "/recent" %></li>
+        <li><%= link_to "Pins", "/pins" %></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">If You Like Us... <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Twitter for Dogs</a></li>
-            <li><a href="#">Instagram for Insects</a></li>
-            <li><a href="#">Myspace for Birds</a></li>
+            <li><%= link_to "Snaps for Cats"%></li>
+            <li><%= link_to "Instagram for Insects"%></li>
+            <li><%= link_to "Myspace for Birds"%></li>
             <li class="divider"></li>
-            <li><a href="#">Tell Us How We Are Doing</a></li>
+            <li><%= link_to "Tell Us How We Are Doing"%></li>
             <li class="divider"></li>
-            <li><a href="#">Make a Donation</a></li>
+            <li><%= link_to "Make A Donation"%></li>
           </ul>
         </li>
       </ul>
